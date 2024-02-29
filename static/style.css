@@ -78,7 +78,17 @@ input[type="email"] {
     box-sizing: border-box;
 }
 
+label.required:after {
+    content: '*';
+    color: red; /* Make the asterisk red */
+    margin-left: 3px; /* Add some spacing between label text and asterisk */
+}
 
+
+.required-text {
+    font-size: 12px; /* Adjust font size as needed */
+    color: #888; /* Adjust color as needed */
+}
 
 #image-preview-container {
     width: 200px; /* Adjust width as needed */
